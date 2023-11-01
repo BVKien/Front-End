@@ -45,6 +45,7 @@
 - npm i classnames 
 - npm i sass 
 - npm i clsx : tải clsx phục vụ cho css, sass
+- npm i @tippyjs/react : cài đặt thư viện tippy hỗ trợ gợi ý thanh search - popper
 
 ========================================================
 

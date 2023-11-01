@@ -4,7 +4,7 @@ import { Fragment } from 'react'; // chỉ để chứa và không sinh ra thẻ
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 // components
 import { publicRoutes } from '~/routes';
-import { DefaultLayout } from '~/components/Layout';
+import { DefaultLayout } from '~/components/Layouts';
 
 function App() {
     return (

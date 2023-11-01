@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- 
+    - Internal vs External: không có sự ưu tiên nhất định, cái nào trước thì gọi.
+
+    những cái còn lại sự ưu tiên chấm theo thang điểm
+
+    tag < class < id < inline < ! important
+
+    Universal selector and inherited: chọn phổ quát và kế thừa - *, html
+ -->
+<html>
+    <head>
+        <title>F8_Shop</title>
+        <meta charset="utf-8">
+        <!-- External -->
+        <link rel="stylesheet" href="main4.css">
+        <!-- Internal -->
+        <!-- <style>
+            #heading-id {
+                color: violet;
+            }
+
+            /*tag(h1) + Equal specificity*/
+            h1#heading-id.heading-class {
+                color: blue;
+            }
+
+            .heading-class {
+                color: yellow;
+            }
+
+            h1 {
+                color: green;
+            }
+        </style> -->
+    </head>
+    <body>
+        <div>
+            <h1 style="color: black !important;" id="heading-id" class="heading-class">Priority</h1>
+            <ol>
+                <li>Internal, External</li>
+                <li>Inline - 1000</li>
+                <li>(#)id - 100</li>
+                <li>(.)class -10</li>
+                <li>tag - 1</li>
+                <li>Equal specificity</li>
+                <li>Universal selector and inherited</li>
+            </ol>
+        </div>
+    </body>
+</html>

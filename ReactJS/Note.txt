@@ -1,0 +1,25 @@
++ note all
+- const response = fetch('api path')
+- setData luôn set response (setData(response))
+
++ các bước làm GetAllCourses
+- cần import useState, useEffect
+- con structor data setData = useState theo array
+- useEffect cho hàm fetchDataFromApi
+- khởi tạo hàm fetchDataFromApi
+- return trả về map {data.map(item => ( <li key={item.courseId}></li> ))} có key = item.courseId 
+
++ các bước làm GetCourseById
+- cần tải axios và import 
+- cần import useState, useEffect
+- // State để lưu trữ Id nhập từ người dùng
+- khởi tạo constructor cho courseId - useState('') cho ng dùng tự chọn và course - useState(null) - để hiện thị kết quả
+- handleInputChange
+- fetchCourseById
+- handleSubmit
+
+- son dang f8 dang muon css theo tung component -> import va bo import la ok
+- css module tao ra file css doc lap ko bii anh huong toi nhau du trung class selector ma ko bi anh huong
+
+
+- chia bố cục như vây không hợp lý, phải có 1 cách khác tối ưu hơn

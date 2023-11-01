@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!-- 
+    CSS Units: những đơn vị được sử dụng trong CSS tùy chỉnh kích thước hiển thị
+    
+    1. Absolute units: những đơn vị tuyệt đối
+    - px: pixel - điểm ảnh, độ phân giải
+    2. Relative units: những đơn vị tương đối
+    - %: phụ thuộc tương đối 
+    - rem: phụ thuộc vào ? được định nghĩa ở html
+    - em: phụ thuộc vào thẻ cha gần nhất (có thuộc tính font-size) h1 < div < body < html
+    - vw: 
+    - vh: 
+-->
+
+<html>
+
+<head>
+    <title>F8 - shop</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main6.css">
+
+    <style>
+        /*pixel*/
+        /*
+            .box {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+            }
+            */
+
+        html {
+            font-size: 100%;
+        }
+
+        /* % */
+        .box {
+            width: 50%;
+            /*50% body*/
+            /* 1% of 100% độ rộng(width) của viewport*/
+            height: 100px;
+            background-color: red;
+        }
+
+        h1 {
+            font-size: 1em;
+        }
+
+        /* 
+            vw, vh - width, height
+            viewport
+            */
+    </style>
+
+</head>
+
+<body>
+    <div class="box"></div>
+
+    <div>
+        <h1>CSS units</h1>
+    </div>
+</body>
+
+</html>
+
+<!--
+<h2>1. Absolute units</h2>
+<ul>
+    <li>px</li>
+    <li>pt</li>
+    <li>cm</li>
+    <li>mm</li>
+    <li>inch</li>
+    <li>pc</li>
+</ul>
+
+<h2>2. Relative units</h2>
+<ul>
+    <li>%</li>
+    <li>rem</li>
+    <li>em</li>
+    <li>vw</li>
+    <li>vh</li>
+    <li>vmin</li>
+    <li>vmax</li>
+    <li>ex</li>
+    <li>ch</li>
+</ul>
+-->

@@ -1,0 +1,43 @@
+- https://www.youtube.com/watch?v=ZxKM3DCV2kE
++ html/css
++ js 2:50:00
++ react 5:55:38
++ Tailwind CSS 7:59:26
++ React Query for network requests 9:09:21
++ CI/CD and GitHub Actions 11:02:23
+
+
+- https://www.youtube.com/watch?v=zJSY8tbf_ys
++ js/html/css
+
++ reactjs
+https://www.youtube.com/watch?v=RVFAyFWO4go
+
+
++ API: Typicode.com
+- https://jsonplaceholder.typicode.com/
+
++ cài nodejs and reactjs - cảm ơn anh
+- https://www.youtube.com/watch?v=T9JMZiERNqc&list=PLeS7aZkL6GOvXE05d_sbTOEMEC_UmEGa7&index=5
+
++ trang download nodejs
+- https://nodejs.org/en
+
++ react 
+- https://react.dev/
+
+===========================
+oop
+sql 
+db
+thuật toán
+tiếng anh
+===========================
+
++ học lại cho chắc kiến thức
+
+23/10/2023
+- học lại đi :)
+
+
+13121321

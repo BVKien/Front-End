@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!-- 
+    ::before
+    ::after
+    ::first-letter
+    ::first-line
+    ::selection
+ -->
+
+<html>
+
+<head>
+    <title>F8 - shop</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main8.css">
+
+    <style>
+        .box {
+            width: 100%;
+            height: 120px;
+            background: rgb(235, 202, 202);
+        }
+
+        /*
+        .box::before {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }
+
+        .box::after {
+            content: "Hello";
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+        }*/
+
+        h1::first-letter {
+            font-size: 50px;
+        }
+
+        h1::first-line {
+            font-size: 50px;
+            color: red;
+        }
+
+        h1::selection {
+           background-color: violet;
+           color: yellow;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+
+    </div>
+
+    <div>
+        <h1>CSS pseudo-elements First Line <br/> Second Line </h2>
+            <ul>
+                <li>::before</li>
+                <li>::after</li>
+                <li>::first-letter</li>
+                <li>::first-line</li>
+                <li>::selection</li>
+            </ul>
+    </div>
+</body>
+
+</html>

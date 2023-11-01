@@ -1,0 +1,11 @@
+html {
+    color: red;
+}
+
+li {
+    color: black !important;
+}
+
+* {
+    color: violet;
+}

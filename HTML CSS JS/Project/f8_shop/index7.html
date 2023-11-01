@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>F8 - shop</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main7.css">
+
+    <style>
+        .box {
+            width: calc(50% + 20%);
+            height: 120px;
+            background: rgb(235, 202, 202);
+        }
+
+        .box::after {
+            /*content: "Hello Everyone";*/
+            content: attr(data-title);
+        }
+
+        a::after{
+            content: " ("attr(href)") "; /*Them ngoac vao duong link href -> This is FullStack(https://fullstack.edu.vn)*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box" data-title="This is Pink Box"></div>
+
+    <a href="https://fullstack.edu.vn">This is FullStack</a>
+
+    <div>
+        <h2>CSS Functions</h2>
+        <ul>
+            <li>var()</li>
+            <li>linear-gradient()</li>
+            <li>rgba()</li>
+            <li>rgb()</li>
+            <li>calc()</li>
+            <li>attr()</li>
+        </ul>
+    </div>
+</body>
+
+</html>

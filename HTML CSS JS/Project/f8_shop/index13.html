@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!-- 
+    box-sizing: giải quyết vấn đề box
+ -->
+
+<html>
+
+<head>
+    <title>F8 - shop</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main8.css">
+
+    <style>
+        html, body {
+            margin: 0;
+        }
+
+        /* box gốc */
+        /*.box {
+            width: 100px;
+            height: 100px;
+            color: #fff;
+            background-color: darkred;
+        }
+        */
+
+        /* box sau khi sửa chay */
+        /*
+        .box {
+            width: 86px;
+            height: 86px;
+            color: #fff;
+            background-color: darkred;
+            padding: 10px;
+            border: 2px solid #333;
+        }
+        */
+
+        /* box-szing*/
+        .box {
+            width: 100px;
+            height: 100px;
+            color: #fff;
+            background-color: darkred;
+            padding: 10px;
+            border: 2px solid #333;
+            box-sizing: border-box;
+        }
+
+        /* ghi đè*/
+        /* .box {
+            box-sizing: unset;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="box">
+        This is content.
+    </div>
+</body>
+
+</html>

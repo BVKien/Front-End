@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!-- 
+    CSS Pseudo-Classes
+    + root: nguồn gốc, gốc rễ
+    + hover: 
+    - bay lượn
+    - đổi sắc thái(màu) khi trỏ chuột vào
+    
+    + active: 
+    - hoạt động, tích cực
+    - đổi sắc thái(màu) khi click chuột vào
+
+    + first-child: đứa trẻ đầu tiên?
+    + last-child: đứa trẻ cuối cùng?
+ -->
+
+<html>
+<head>
+    <title>F8 - shop</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main8.css">
+
+    <style>
+        .box {
+            width: 100%;
+            height: 120px;
+            background: rgb(235, 202, 202);
+        }
+
+        .box:active {
+            background-color: #333;
+        }
+
+        h1:hover {
+            color: red;
+        }
+
+        li:first-child {
+           color: darkred; 
+        }
+
+        li:last-child {
+            color: blue;
+            font-size:20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="box"></div>
+
+    <div>
+        <h1>CSS pseudo-classes</h2>
+        <ul>
+            <li>:root</li>
+            <li>:hover</li>
+            <li>:active</li>
+            <li>:first-child</li>
+            <li>:last-child</li>
+        </ul>
+    </div>
+</body>
+</html>

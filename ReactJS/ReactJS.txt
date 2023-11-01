@@ -1,0 +1,189 @@
+*note
+-Cloud SQL
+-Thaor - Saau
+-PhAh
+"react-router-dom": "^6.16.0", router vesion 6
+
+*bug
++ 11/10/2023
+- đường dẫn post/:id 
+- add new post
+- vẫn sai delete, edit
+
++ 12/10/2023
+- history.push('/') : đơn hianr chỉ là đẩy về lại trang co link ('/') là trang Home sau khi thực hiện chức năng
+- đường dẫn đến link chưa sửa
+- chưa trả về Home sau khi thực hiện chức năng
+- chưa css
+- bug đang ở phần redux
+
+========================================================
++ read more about 
+- https://create-react-app.dev/docs/measuring-performance/
+
++ npmjs.com
+- https://www.npmjs.com/
+
++ json place holder typicode free fake api
+- https://jsonplaceholder.typicode.com/
+
++ axios - npm 
+- https://www.npmjs.com/package/axios
+========================================================
++npm Command 
+- start: npm start
+- stop: ctrl + C
+- npm i react-icons --save-prod : lệnh cài 1 gói (Node Package Manager) 
+- npm i colornames -S : tải key màu hay mã tên màu gì đó dùng cho Hexa vvvv....
+- npm i json-server : install json server 
+- npm i react-router-dom -S : cài React route
+- npm install react-router-dom
+- npm i date-fns -S : install date
+- npm i axios -S : install axios
+- npm uninstall @testing-library/jest-dom @testing-library/jest-dom...(name...)
+- npm i easy-peasy : install easy peasy
+- npm i classnames 
+- npm i sass 
+- npm i clsx : tải clsx phục vụ cho css, sass
+
+========================================================
+
+========================================================
++npx Command 
+- npx create-react-app name : create new project
+- npx json-server -p 3500 -w data/db.json
+- http://localhost:3500/items : my json server address *modify port
+
+========================================================
+
+
+========================================================
++ Note
+- fetch kha giong ~ constructors
+
+========================================================
+
+========================================================
++ Hệ thống hóa công thức để học
+- Xem tutorial 
+- Thực hành
+- Đọc document chính thống
+
++ Concepts, Theory and Practice: Khái niệm, Lý thuyết và Thực hành
+- App.js: look like HTML but it's JSX
+
++ Chapter 2: App & JSX
+- {}: render
+- not render a boolean
+
++ Chapter 3: Functional Components
+- raf...: câu lệnh sinh code do được tải es7
+
++ Chapter 4: Applying CSS Style
++ Chapter 5: Click Events
++ Chapter 6: useState Hook
++ chapter 7: lists & keys
+- npmjs.com
+- https://www.npmjs.com/
+
++ chapter 8: props and prop drilling - properties
++ chapter 9: controlled component inputs
++ chapter 10: project challenge 01
++ chapter 11: use effect hook
++ chapter 12: JSON Server
++ chapter 13: fetch api data
+- JSX ?
++ chapter 14: CRUD operations
++ chapter 15: fetch data challenge
+- hook
++ chapter 16: react router
+- switch sẽ bị loại bỏ từ version 6 - thay thế bằng sử dụng Routes
++ chapter 17: router hooks & links
+- add link
+- route
+- hooks
++ chapter 18: flexbox components
++ chapter 19: axios api request
++ chapter 20: customer hooks
++ chapter 21: easy peasy redux
++ chapter 22: deploy app
+
+========================================================
+
+========================================================
+++ ReactJs F8 - Son Dang
+- chưa học về build
+- Development: npm start / yarn start -> CSS internal 
+- Production: npm run build / yarn build -> CSS external
+-  serve -s build
+- Css module - thuat toan b64 / styled component
+- dạng chuỗi: '' - ex: className='' 
+-dạng expression: {} - ẽ: className={}
+
++ Module.css
+- className={styles.heading}
+- nó không kế thừa được thì phải làm cách nào?
+
++ tạo component theo Son Dang 
+- tạo folder component
+- Module.css
+- index.js
+
+- props className: nhận kiểu dữ liệu string
+- className
+- clsx : là 1 hàm
+
+*tips import thư viện ở trên './' ở dưới 
+
++ Button primary
+- từ App.js có <Button primary /> primary ở đây là prop
+- Về lại Button.js const Button = ({ primary }) primary ở đây là tên của children 
+
+========================================================
+
+========================================================
+- map(): là để chạy được các thành phần trong array có thể tạo ra array mới
++ Module
+-- Export
+export const name = 'John'
+export const age = 40
+
+or 
+
+const name = 'John'
+const age = 40
+export {name, age}
+
+-- Default Export
+const message () => {
+    const name = 'Jihn',
+    const age = 20
+    return name + 'is' + age + 'years old'
+}
+
+export default message
+
+-- Import 
+import { name, age } from "./person.js";
+import message from "./message.js";
+
++ Ternary Operator: Toán tử bậc 3
+authenticated ? renderApp() : renderLogin();
+
++ Cross-Origin Resource Sharing - CROS: Thông qua, hay còn gọi là Chia sẻ tài nguyên đa nguồn
++ Lỗi bạn đang gặp liên quan đến vấn đề CORS (Cross-Origin Resource Sharing), 
+và nó xảy ra khi trình duyệt không cho phép yêu cầu từ một nguồn (origin) khác. 
+Để giải quyết vấn đề này, bạn cần cấu hình máy chủ API để cho phép yêu cầu từ nguồn khác.
+- đã xử lý trong code .net và reactjs 
+- nhớ kỹ thông tin về port và đường dẫn 
+-- mục cần sửa:
+- program.cs
+- controller -> return trả về và code trong hàm để khai báo đường dẫn 
+- reactjs -> fetch
+- lời khuyên chân thành: nắm vững javascript ok
+
++ GPT Connect API - CORS: https://chat.openai.com/c/3145d3fd-a5c6-4abe-83ac-f8582c42d0dc
+
++ Vẫn còn có thứ từ nó mà mình chưa học được
+
+========================================================

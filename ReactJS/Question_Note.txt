@@ -1,0 +1,4 @@
++ công dụng của useState là gì?
++ useEffect?
++ async, await
++ thay vì sử dụng axios tại sao lại dung fetch?

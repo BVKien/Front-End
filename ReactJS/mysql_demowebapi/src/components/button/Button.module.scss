@@ -1,0 +1,30 @@
+.btn {
+    padding: 4px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+}
+
+.active {
+    color: blue;
+    background-color: aquamarine;
+}
+
+.heading {
+    font-size: 20px;
+    color: red;
+}
+
+.primary {
+    color: blue;
+    background-color: aquamarine;
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}

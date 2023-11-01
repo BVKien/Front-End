@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "checked": false,
+      "item": "anh Kien dep trai vai"
+    },
+    {
+      "id": 2,
+      "checked": false,
+      "item": "item 2"
+    },
+    {
+      "id": 3,
+      "checked": false,
+      "item": "item 3"
+    },
+    {
+      "id": 4,
+      "checked": false,
+      "item": "kooko"
+    }
+  ]
+}

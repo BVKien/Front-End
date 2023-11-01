@@ -1,0 +1,18 @@
+/*Global Variable: Biến toàn cục*/
+:root {
+    --text-color: violet;
+}
+
+h1 {
+    /*Local Variable: Sử dụng luôn trong 1 selectors cụ thể*/
+    --my-color: green;
+    color: var(--my-color);
+}
+
+h2 {
+    color: var(--my-color);
+}
+
+h3 {
+    color: var(--text-color);
+}

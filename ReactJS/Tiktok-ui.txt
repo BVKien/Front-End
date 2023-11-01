@@ -1,0 +1,45 @@
+- f8
+- .env.local : cài đặt môi trường
+-- npm i customize-cra react-app-rewired -D : de co the customize lai webpack
+- tạo config-overrides.js ngang cấp với src
+- thay đổi scripts thành
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+- Cài đặt babel plugin module resolver: config cho cú pháp import gọn gàng
+* https://github.com/tleunen/babel-plugin-module-resolver
+-- npm install --save-dev babel-plugin-module-resolver
+- tạo .babelrc
+- tạo jsconfig.json
+
+* https://github.com/arackaf/customize-cra
+
+* https://github.com/arackaf/customize-cra/blob/master/api.md#usebabelrc
+
+- thư viện pretiier: format code đẹp hơn sau khi nhấn save
+-- có git back về lịch sử: https://www.youtube.com/watch?v=1s8iJZltSlo&list=PL_-VfJajZj0UXjlKfBwFX73usByw3Ph9Q&index=59
+
++ 60
+- tạo GlobalStyles componet 
+- tải SASS: npm i -D sass 
+- reset css 
+-- npm install --save normalize.css
+- https://fonts.google.com/specimen/Montserrat
+
++ 61
+- phân tích layout
+- cài đặt router
+- cấu hình routes
+- xây dựng cơ chế tải layout
+- select all + crtl shift p + wrapp + nhập Router
+- alt + w : wrap sau khi tai extentions
+- routes/index.js : phục vụ cho chức năng filter 
+import { Fragment } from 'react'; // chỉ để chứa và không sinh ra thẻ thật trong dom
+
+
+
+
+

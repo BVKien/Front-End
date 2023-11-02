@@ -74,3 +74,9 @@ import { Fragment } from 'react'; // chỉ để chứa và không sinh ra thẻ
                             <FontAwesomeIcon icon={faMagnifyingGlass} />
                         </button>
                     </Tippy>
+
++ 65
+-- style boolean cho button
+- primary
+- outline
+- scss: càng ở dưới càng mới, càng được ưu tiên hơn

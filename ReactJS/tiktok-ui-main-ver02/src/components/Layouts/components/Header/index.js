@@ -7,9 +7,10 @@ import Tippy from '@tippyjs/react/headless';
 // layouts
 import styles from './Header.module.scss';
 import images from '~/assets/images';
-import { faCircleXmark, faSpinner, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark, faSpinner, faMagnifyingGlass, faSignIn } from '@fortawesome/free-solid-svg-icons';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
 import AccountItem from '~/components/AccountItem';
+import Button from '~/components/Button';
 
 const cx = classNames.bind(styles); // bind object styles tra ve 1 function cx
 
@@ -66,7 +67,22 @@ const Header = () => {
                 </Tippy>
 
                 {/* Action - nam ben phai thanh search */}
-                <div className={cx('actions')}></div>
+                <div className={cx('actions')}>
+                    {/* Upload */}
+                    <Button text>Upload</Button>
+
+                    {/* to="/login" */}
+                    {/* sử dụng reatc router dom -> to Link nội bộ */}
+                    {/* việc chuyển trang nhẹ nhàng đậm chất react */}
+
+                    {/* href="https://react.dev/" */}
+                    {/* target blank, mở trong tab mới khi có link ngoài, đặt qua ...passProps trong phần button */}
+                    {/* className={cx('custom-login') */}
+                    <Button primary rightIcon={<FontAwesomeIcon icon={faSignIn} />}>
+                        {/* children ở đây là Log in */}
+                        Log in
+                    </Button>
+                </div>
             </div>
         </header>
     );
